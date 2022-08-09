@@ -5,8 +5,8 @@ const express = require('express');
 
 // create LINE SDK config from env variables
 const config = {
-  channelAccessToken: rc2ky7X5QK39R2RblaiRiEqqInME7FIsG55lu7k+CjfqL/JEYkx9rnokDIl+58YNtSgm33KBjxO6iKtTLpvwsYGYlyV1R8hPVCULX+rQACm7vf9c8TfAnZ0Svu/6hPLFKN9/40OqTVraFIZ7aD8wgQdB04t89/1O/w1cDnyilFU=,
-  channelSecret: 5dae8eae26bff119024319e076797f06,
+  channelAccessToken: "rc2ky7X5QK39R2RblaiRiEqqInME7FIsG55lu7k+CjfqL/JEYkx9rnokDIl+58YNtSgm33KBjxO6iKtTLpvwsYGYlyV1R8hPVCULX+rQACm7vf9c8TfAnZ0Svu/6hPLFKN9/40OqTVraFIZ7aD8wgQdB04t89/1O/w1cDnyilFU=",
+  channelSecret": "5dae8eae26bff119024319e076797f06"
 };
 
 // create LINE SDK client
