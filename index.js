@@ -35,8 +35,12 @@ function handleEvent(event) {
     return Promise.resolve(null);
   }
 
+  var Today=new Date();
+  var DayAndBreak = ["A","A","B","B","B","C","C","D","D","D","Break","Break",
+                     "Break","A","A","A","B","B","C","Break","Break","A",
+                    "B","B","C","undefine","undefine","undefine","undefine","undefine"];
   // create a echoing text message
-  const echo = { type: 'text', text: event.message.text };
+  const echo = { type: 'text', text: DayAndBreak[Today.getDate()] };
 
   // use reply API
   return client.replyMessage(event.replyToken, echo);
